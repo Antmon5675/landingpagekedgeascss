@@ -1,0 +1,29 @@
+.banner{
+	height: 40vh;
+	background-image: url("../images/banner.png");
+	background-size: cover; 
+	background-position: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align:  center;
+}
+
+.banner h1 {
+	color: rgb(202, 73, 170);
+	text-shadow: 1px 1px 1px white;
+}
+
+
+.banner h2 {
+	color: black;
+	text-shadow: 1px 1px 1px white;
+}
+
+@media (min-width: 576px) { 
+.banner {
+	background-position: center;
+	}
+}

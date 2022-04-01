@@ -1,0 +1,27 @@
+@import url('banner.css');
+@import url('cards.css');
+@import url('button.css');
+@import url('footer.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+	margin: 0;
+	background-color: rgb(255, 234, 221); 
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+ul {
+  	list-style-type: none;
+}
+
+.list-inline {
+	display: flex;
+}
